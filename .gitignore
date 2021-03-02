@@ -2,7 +2,9 @@
 /tests
 .phpunit.result.cache
 .idea
-# игнорируем всё в корне
+# игнорируем всё в корне # кроме папки
+
 /*
-# кроме папки
-!/src/oop-mvc/
+!/src
+/src/*
+!/src/oop-mvc
