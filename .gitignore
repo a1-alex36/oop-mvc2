@@ -1,0 +1,8 @@
+/vendor
+/tests
+.phpunit.result.cache
+.idea
+# игнорируем всё в корне
+/*
+# кроме папки
+!/src/oop-mvc
